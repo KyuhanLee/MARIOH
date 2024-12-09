@@ -64,13 +64,13 @@ python main.py --data {dataset_name} --gpu 0 --seed 42 --output_dir output
 **Reduced mode (default):**
 
 ```bash
-python main.py --data eu --gpu 0 --seed 123 --output_dir output
+python main.py --data hschool --gpu 0 --seed 123 --output_dir output
 ```
 
 **Preserved mode:**
 
 ```bash
-python main.py --data eu --gpu 0 --seed 123 --output_dir output --preserved
+python main.py --data hschool --gpu 0 --seed 123 --output_dir output --preserved
 ```
 
 In these examples, the code will:
