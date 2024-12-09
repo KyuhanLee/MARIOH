@@ -31,11 +31,11 @@ You must place your datasets into the `data/` directory. Each dataset should hav
 
 ```
 data/
-戌式式 {dataset_name}/
-    戍式 train.txt        # Training data (reduced mode)
-    戍式 test.txt         # Testing data (reduced mode)
-    戍式 train_dup.txt    # Training data (preserved mode)
-    戌式 test_dup.txt     # Testing data (preserved mode)
+|-- {dataset_name}/
+    |-- train.txt        # Training data (reduced mode)
+    |-- test.txt         # Testing data (reduced mode)
+    |-- train_dup.txt    # Training data (preserved mode)
+    +-- test_dup.txt     # Testing data (preserved mode)
 ```
 
 - **Reduced mode** uses `train.txt` and `test.txt`.
